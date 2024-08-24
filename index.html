@@ -4,8 +4,94 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Daniel</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  Hola mi nombre es daniel
+  <header class="header">
+    <div class="menu contanier">
+      <a href="#" class="logo">Destino</a>
+      <input type="checkbox" id="menu">
+
+      <label for="menu">
+        <img src="img/menu.png" class="menu-icon" alt="">
+      </label>
+
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="#">Inicio</a>
+          </li>
+          <li>
+            <a href="#">Servicio</a>
+          </li>
+          <li>
+            <a href="#">Productos</a>
+          </li>
+          <li>
+            <a href="#">Reservaciones</a>
+          </li>
+          <li>
+            <a href="#">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+
+    <div class="header-content container">
+      <div class="header-txt">
+        <h1>Elige tu playa fav</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores pariatur culpa molestiae. Ducimus deleniti dolorem repudiandae consectetur ratione dignissimos, rem atque doloribus nisi commodi quaerat earum omnis aspernatur? A, aut.
+        </p>
+        <a href="#" class="btn-1">
+          Seccion menu
+        </a>
+      </div>
+    </div>
+
+    <div class="images">
+      <div class="swiper mySwiper">
+        <div class="swiper-wraper">
+          <div class="swiper-slide">
+            <img src="img/1.jpg" alt="">
+            <h3>Playa</h3>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/2.jpg" alt="">
+            <h3>Hotel</h3>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/3.jpg" alt="">
+            <h3>Naturaleza</h3>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/4.jpg" alt="">
+            <h3>Canoas</h3>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/5.jpg" alt="">
+            <h3>Lanchas</h3>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </header>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"> </script>
 </body>
 </html>
